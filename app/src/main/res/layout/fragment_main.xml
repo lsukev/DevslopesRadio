@@ -52,7 +52,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/frameLayout" />
+            android:id="@+id/container_middle_row" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -76,7 +76,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/frameLayout2" />
+            android:id="@+id/container_bottom_row" />
 
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
