@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Kevin\Desktop\DevslopesRadio\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\Kevin\Desktop\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_25c4249dcf03bbc9fb6ecfb7e81884490581a27d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Kevin\Desktop\DevslopesRadio\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Kevin\Desktop\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_b2f14134a3dd8bb47b2329f00d3d988fdd1d5f85\classes.dex" />
+    </item>
+
+</items>
