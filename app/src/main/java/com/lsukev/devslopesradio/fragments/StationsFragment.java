@@ -2,6 +2,7 @@ package com.lsukev.devslopesradio.fragments;
 
 
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -11,6 +12,7 @@ import android.view.ViewGroup;
 
 import com.lsukev.devslopesradio.R;
 import com.lsukev.devslopesradio.adapters.StationsAdapter;
+import com.lsukev.devslopesradio.services.DataService;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -66,22 +68,22 @@ public class StationsFragment extends Fragment {
         RecyclerView recyclerView = (RecyclerView)v.findViewById(R.id.recycler_stations);
         recyclerView.setHasFixedSize(true);
 
-        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
-        layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
-        recyclerView.setLayoutManager(layoutManager);
-
-        StationsAdapter stationsAdapter;
+        StationsAdapter adapter;
 
         if (stationType == STATION_TYPE_FEATURED){
+            adapter = new StationsAdapter(DataService.getInstance().getFeaturedStations());
 
         }else if (stationType == STATION_TYPE_RECENT){
-
+            adapter = new StationsAdapter(DataService.getInstance().getRecentStations());
         }else{
-
+            adapter = new StationsAdapter(DataService.getInstance().getPartyStations());
         }
 
         recyclerView.setAdapter(stationsAdapter);
 
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
+        layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+        recyclerView.setLayoutManager(layoutManager);
 
 
         return v;
