@@ -24,7 +24,8 @@
             android:textColor="#A4A4A4"
             android:textSize="18dp"
             android:text="Play something for..."
-            android:paddingLeft="12dp" />
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp" />
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,7 +36,7 @@
             android:layout_height="wrap_content"
             android:textColor="#373737"
             android:textSize="25dp"
-            android:text="It&apos;s Friday Evening"
+            android:text="Recent Activity"
             android:paddingLeft="12dp"
             android:paddingTop="12dp"
             android:id="@+id/textView" />
@@ -45,9 +46,10 @@
             android:layout_height="wrap_content"
             android:textColor="#A4A4A4"
             android:textSize="18dp"
-            android:text="Play something for..."
+            android:text="Recently played or added"
             android:paddingLeft="12dp"
-            android:id="@+id/textView2" />
+            android:id="@+id/textView2"
+            android:paddingTop="10dp" />
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -59,7 +61,7 @@
             android:layout_height="wrap_content"
             android:textColor="#373737"
             android:textSize="25dp"
-            android:text="It&apos;s Friday Evening"
+            android:text="Party Stations"
             android:paddingLeft="12dp"
             android:paddingTop="12dp"
             android:id="@+id/textView3" />
@@ -69,9 +71,10 @@
             android:layout_height="wrap_content"
             android:textColor="#A4A4A4"
             android:textSize="18dp"
-            android:text="Play something for..."
+            android:text="Time to get funky!"
             android:paddingLeft="12dp"
-            android:id="@+id/textView4" />
+            android:id="@+id/textView4"
+            android:paddingTop="10dp" />
 
         <FrameLayout
             android:layout_width="match_parent"

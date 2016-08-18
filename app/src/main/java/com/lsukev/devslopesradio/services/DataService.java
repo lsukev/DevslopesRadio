@@ -23,12 +23,17 @@ public class DataService {
         list.add(new Station("Flight Plan (Tunes for Travel)", "flightplanmusic"));
         list.add(new Station("Two-Wheelin(Biking Playlist)", "bicyclemusic"));
         list.add(new Station("Kids Jams (Music for Children)", "kidsmusic"));
+        list.add(new Station("Kids Jams (Music for Children)", "kidsmusic"));
+        list.add(new Station("Kids Jams (Music for Children)", "kidsmusic"));
 
         return list;
     }
 
     public ArrayList<Station> getRecentStations(){
         ArrayList<Station> list = new ArrayList<>();
+        list.add(new Station("Mixed James", "vinylmusic"));
+        list.add(new Station("Music You'll Like", "socialmusic"));
+        list.add(new Station("Something With a Key", "keymusic"));
         return list;
     }
     public ArrayList<Station> getPartyStations(){
